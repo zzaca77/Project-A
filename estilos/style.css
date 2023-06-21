@@ -1,0 +1,148 @@
+ @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+ :root {
+    --cor-principal: #000000;
+    --cor-secundaria: #F6f6f6;
+    --cor-terciaria: #22d4fd;
+    --cor-quarteciaria: #272727;
+    --fonte-principal: 'system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif';
+    --fonte-secundaria: 'Krona One', sans-serif;
+}
+ 
+ * {
+    margin: 0;
+    padding: 0;
+}
+
+body {  
+    box-sizing: border-box;
+    background-color: var(--cor-principal);
+    background-size: cover;
+    color: var(--cor-secundaria);
+}
+    .strong {
+   color: rgb(61, 8, 8);
+}
+
+.destaque-2 {
+    color: #ffffff;
+}
+
+.conteudo-2 { 
+    margin:  5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.selection-destaqe {
+    width: 50%;
+    display: flex;
+     flex-direction: column;
+    gap: 40px;
+}
+
+.h1_destaque{
+    font-size: 2.25rem;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-secundaria);
+}
+
+.texto_conteudo{
+    font-size: 1.5rem;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-secundaria);
+}
+
+.apresentação_dos_links {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    color: var(--cor-secundaria);
+}
+
+.apresentação_redes {
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.link_1 {
+    border: 2px solid var(--cor-terciaria);
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    padding: 21.5px 0;
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-secundaria);
+    text-decoration: none;
+    width: 388px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.link_1:hover{
+    background-color: #272727;
+    padding: 3%;
+    gap: 82px;
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+
+}
+
+
+.Linksdahome {
+    display: flex;
+    gap: 80px;
+}
+
+.diana_informacoes {
+    font-family: var(--fonte-principal);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color:var(--cor-terciaria);
+    text-decoration: none;
+} 
+
+.imagem1s1 {
+     width: 50%;
+}
+
+.rodape {
+    color: var(--cor-secundaria);
+    background-color: var(--cor-terciaria);
+    padding: 20px;
+    font: 1.5rem;
+    font-family: var(--fonte-secundaria);
+    text-align: center;
+    font-weight: 400;   
+}
+
+@media (max-width: 1200px) {
+    
+    .conteudo-2{
+        padding: 5%;
+    }
+    
+    .Linksdahome {
+        justify-content: center;
+    }
+    
+    .cabecalho{ 
+        padding: 10%;
+
+    }
+    
+    .selection-destaqe {
+        flex-direction: column-reverse;
+        padding: 5%;
+        width: auto;
+    }
+}
+    
